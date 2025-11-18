@@ -68,6 +68,12 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bannerBgTwo{
+    position: absolute;
+    top: -62px;
+    left: 0;
+    z-index: 10;
+}
 
 .bannerH4 {
   color: #df6951;
@@ -84,15 +90,14 @@ p {
   padding-bottom: 40px;
   font-family: "Volkhov", serif;
 }
-.decor{
-    position: absolute;
-    top: 96px;
-    left: 272px;
-    z-index: -1;
-
+.decor {
+  position: absolute;
+  top: 96px;
+  left: 272px;
+  z-index: -1;
 }
-.relative{
-    position: relative;
+.relative {
+  position: relative;
 }
 .bannerP {
   color: #5e6282;
@@ -103,16 +108,29 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-.bannerBtn{
-    color: white;
-    background: #F1A501;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    padding: 12px 22px;
+.bannerBtn {
+  color: white;
+  background: #f1a501;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 12px 22px;
 }
-:hover.bannerBtn{
-    background: red;
+:hover.bannerBtn {
+  background: red;
+}
+.bannerPlay {
+  font-size: 17px;
+  font-weight: 500;
+  color: #686d77;
+  font-family: "Poppins", sans-serif;
+  padding-top: 36px;
+}
+.playBtn{
+    cursor: pointer;
+}
+.bannerBtnD{
+    padding-top: 50px;
 }
 /* ========banner part end===========  */
