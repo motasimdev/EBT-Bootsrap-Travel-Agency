@@ -68,11 +68,11 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bannerBgTwo{
-    position: absolute;
-    top: -62px;
-    left: 0;
-    z-index: 10;
+.bannerBgTwo {
+  position: absolute;
+  top: -62px;
+  left: 0;
+  z-index: 10;
 }
 
 .bannerH4 {
@@ -127,32 +127,46 @@ p {
   font-family: "Poppins", sans-serif;
   padding-top: 36px;
 }
-.playBtn{
-    cursor: pointer;
+.playBtn {
+  cursor: pointer;
 }
-.bannerBtnD{
-    padding-top: 50px;
+.bannerBtnD {
+  padding-top: 50px;
 }
 /* ========banner part end===========  */
 
-
 /* ========catagory part start===========  */
-.catagoryMain{
-    padding: 80px 0;
+.catagoryMain {
+  padding: 80px 0;
 }
-.ctgryTitleM{
-    padding-bottom: 22px;
-    font-size: 18px;
-    font-weight: 600;
+.ctgryRel {
+  position: relative;
+}
+.ctgryBg {
+  position: absolute;
+  top: 0;
+  right: -53px;
+}
+.ctgryTitleM {
+  padding-bottom: 22px;
+  font-size: 18px;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
-    color: #5E6282;
+  color: #5e6282;
 }
-.ctgryTitleL{
-    font-size: 50px;
-    font-weight: 700;
+.ctgryTitleL {
+  font-size: 50px;
+  font-weight: 700;
   font-family: "Volkhov", sans-serif;
-    color: #14183E;
+  color: #14183e;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.ctgryCardOne{
+    background: red;
+    padding: 60px;
 }
 /* ========catagory part end===========  */
-
-
