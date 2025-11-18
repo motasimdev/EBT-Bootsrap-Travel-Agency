@@ -27,6 +27,16 @@ p {
 /* All Common Css End */
 
 /* header part start  */
+.headerBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar{
+    z-index: 100;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 17px;
@@ -39,10 +49,7 @@ p {
   width: 46px;
   outline: 0;
   cursor: pointer;
-}
-
-.select-header {
-  cursor: pointer !important;
+  background: transparent !important;
 }
 
 .signup {
@@ -52,6 +59,8 @@ p {
   border-radius: 8px;
 }
 /* header part end */
+
+/* ========banner part start===========  */
 
 .bannerBg {
   background-image: url("../assets/bannerr.png");
@@ -69,9 +78,15 @@ p {
   color: #181e4b;
   font-size: 84px;
   font-weight: bold;
+  line-height: 90px;
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 .bannerP {
-  color: #5e6282;
+  color: #5E6282;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 30px;
+  padding-right: 203px;
 }
+/* ========banner part end===========  */
