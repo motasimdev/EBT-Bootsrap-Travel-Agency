@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Agency</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- google fonts -->
+
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,30 +21,33 @@
 <body>
 
     <!-- ===============nav=============== -->
-    <section>
+    <section class="headerBg">
         <div class="container m-auto">
-            <nav class="navbar navbar-expand-lg py-4">
-                <div class="container-fluid grid grid-col gap-5 fixed top-0 left-0">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/Logo.png" alt="logo">
-                    </a>
+            <nav class="navbar navbar-expand-lg py-4 fixed top-0 left-0">
+                <div class="container-fluid row gap-5">
+                    <div class="col-lg-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/Logo.png" alt="logo">
+                        </a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse grid grid-col justify-content-between" id="navbarNavAltMarkup">
-                        <div class="navbar-nav gap-5">
-                            <a class="nav-link active" aria-current="page" href="#">Desitnations</a>
-                            <a class="nav-link" href="#">Hotels</a>
-                            <a class="nav-link" href="#">Flights</a>
-                            <a class="nav-link" href="#">Bookings</a>
-                        </div>
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="#">Login</a>
-                            <a class="nav-link py-1 px-2 border border-2 rounded-2 " href="#">Signup</a>
-                            <div class="">
-
+                    <div class="col-lg-7">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup ">
+                            <div class="navbar-nav justify-content-end gap-5">
+                                <a class="nav-link" aria-current="page" href="#">Desitnations</a>
+                                <a class="nav-link" href="#">Hotels</a>
+                                <a class="nav-link" href="#">Flights</a>
+                                <a class="nav-link" href="#">Bookings</a>
+                                <a class="nav-link" href="#">Login</a>
+                                <a class="nav-link signup" href="#">Signup</a>
+                                <select name="" id="" class="header_sel">
+                                    <option value="english select-header">EN</option>
+                                    <option value="bangla select-header">BAN</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -56,7 +68,8 @@
                         <h3 class="bannerH3">Travel, enjoy
                             and live a new
                             and full life</h3>
-                            <p class="bannerP">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                        <p class="bannerP">Built Wicket longer admire do barton vanity itself do in it. Preferred to
+                            sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
                     </div>
                 </div>
             </div>

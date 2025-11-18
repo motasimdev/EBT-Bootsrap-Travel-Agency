@@ -1,33 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  /* if full website has 1 font family  */
+  /* font-family: serif; */
 }
-ul,li{
-    list-style-type: none;
+a {
+  text-decoration: none;
+  display: inline-block;
 }
-a{
-    text-decoration: none;
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common Css End */
+
+/* header part start  */
+.nav-link {
+  font-weight: 500;
+  font-size: 17px;
+  color: #212832;
+  font-family: "Open Sans", sans-serif;
 }
 
-.bannerBg{
-    background-image: url('../assets/bannerr.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.header_sel {
+  border: none;
+  width: 46px;
+  outline: 0;
+  cursor: pointer;
 }
 
-.bannerH4{
-    color: #DF6951;
-    font-size: 20px;
-    font-weight: bold;
+.select-header {
+  cursor: pointer !important;
 }
-.bannerH3{
-    color: #181E4B;
-    font-size: 84px;
-    font-weight: bold;
+
+.signup {
+  display: inline-block;
+  padding: 5px 20px !important;
+  border: 1px solid #212832;
+  border-radius: 8px;
 }
-.bannerP{
-    color: #5E6282;
-    font-size: 16px;
-    font-weight: 400;
+/* header part end */
+
+.bannerBg {
+  background-image: url("../assets/bannerr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerH4 {
+  color: #df6951;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bannerH3 {
+  color: #181e4b;
+  font-size: 84px;
+  font-weight: bold;
+}
+.bannerP {
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 400;
 }
