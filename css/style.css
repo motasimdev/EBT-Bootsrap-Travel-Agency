@@ -134,3 +134,25 @@ p {
     padding-top: 50px;
 }
 /* ========banner part end===========  */
+
+
+/* ========catagory part start===========  */
+.catagoryMain{
+    padding: 80px 0;
+}
+.ctgryTitleM{
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 600;
+  font-family: "Poppins", sans-serif;
+    color: #5E6282;
+}
+.ctgryTitleL{
+    font-size: 50px;
+    font-weight: 700;
+  font-family: "Volkhov", sans-serif;
+    color: #14183E;
+}
+/* ========catagory part end===========  */
+
+
