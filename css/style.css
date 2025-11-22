@@ -175,9 +175,18 @@ p {
   font-family: "Poppins", sans-serif;
   color: #5e6282;
   line-height: 22px;
-  padding: 0 60px;
+  padding: 0 50px;
+}
+.card_hover{
+  padding: 50px 0;
+  border-radius: 36px;
+  width: 270px;
 }
 :hover.card_hover {
-  
+  -webkit-box-shadow: 0 2.5px 5px -0.5px #dddddd;
+  -moz-box-shadow: 0 2.5px 5px -0.5px #dddddd;
+  box-shadow: 0 2.5px 5px -0.5px #dddddd;
+  transition: all;
+  transition-duration: 0.3s;
 }
 /* ========catagory part end===========  */
