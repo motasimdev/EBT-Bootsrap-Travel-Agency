@@ -226,3 +226,20 @@ p {
   width: 100%;
 }
 /* ========sell part end===========  */
+
+
+/* ========book part start===========  */
+.boolTitleM {
+  padding-bottom: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #5e6282;
+}
+.boolTitleL {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Volkhov", sans-serif;
+  color: #14183e;
+}
+/* ========book part end===========  */
