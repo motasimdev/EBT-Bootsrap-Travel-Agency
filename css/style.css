@@ -199,15 +199,30 @@ p {
 }
 /* ========catagory part end===========  */
 
-
 /* ========sell part start===========  */
-.card-img-top{
+.card-img-top {
   width: 100%;
 }
-.text_card_T{
-  color: #5E6282;
+.text_card_T {
+  color: #5e6282;
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
+}
+.sell_card {
+  -webkit-box-shadow: 0 2.5px 5px -0.5px #dddddd;
+  -moz-box-shadow: 0 2.5px 5px -0.5px #dddddd;
+  box-shadow: 0 2.5px 5px -0.5px #dddddd;
+
+  padding: 0 0 30px 0;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  width: 400px;
+}
+.sell_img{
+  width: 100%;
 }
 /* ========sell part end===========  */
