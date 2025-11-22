@@ -30,11 +30,13 @@ p {
 .headerBg {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 50%;
+  transform: translatex(123%);
+  z-index: -100;
 }
 
 .navbar {
-  z-index: 100;
+  z-index: 0;
 }
 
 .nav-link {
@@ -160,13 +162,22 @@ p {
   font-family: "Volkhov", sans-serif;
   color: #14183e;
 }
-
-.swiper {
-  width: 600px;
-  height: 300px;
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #14183e;
+  padding: 18px 0;
 }
-.ctgryCardOne{
-    background: red;
-    padding: 60px;
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #5e6282;
+  line-height: 22px;
+  padding: 0 60px;
+}
+:hover.card_hover {
+  
 }
 /* ========catagory part end===========  */
