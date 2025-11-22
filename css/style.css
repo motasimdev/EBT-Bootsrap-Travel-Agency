@@ -241,5 +241,11 @@ p {
   font-weight: 700;
   font-family: "Volkhov", sans-serif;
   color: #14183e;
+  line-height: 68px;
+  padding-right: 94px;
+}
+.bookCard{
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
 }
 /* ========book part end===========  */
