@@ -249,3 +249,19 @@ p {
   border-top-right-radius: 36px;
 }
 /* ========book part end===========  */
+
+/* ========testimonial part start===========  */
+.testCircle{
+  background: #39425D;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+}
+.testCircleTwo{
+  background: #39425D;
+  height: 5px;
+  width: 5px;
+}
+/* ========testimonial part end===========  */
+
+
