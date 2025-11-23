@@ -222,11 +222,10 @@ p {
   background-color: white;
   width: 400px;
 }
-.sell_img{
+.sell_img {
   width: 100%;
 }
 /* ========sell part end===========  */
-
 
 /* ========book part start===========  */
 .boolTitleM {
@@ -244,24 +243,23 @@ p {
   line-height: 68px;
   padding-right: 94px;
 }
-.bookCard{
+.bookCard {
   border-top-left-radius: 36px;
   border-top-right-radius: 36px;
 }
 /* ========book part end===========  */
 
 /* ========testimonial part start===========  */
-.testCircle{
-  background: #39425D;
-  height: 5px;
-  width: 5px;
+.testCircle {
+  background: #39425d;
+  height: 10px;
+  width: 10px;
   border-radius: 100%;
 }
-.testCircleTwo{
-  background: #39425D;
-  height: 5px;
-  width: 5px;
+.testCircleTwo {
+  background: #E5E5E5;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
 }
 /* ========testimonial part end===========  */
-
-
